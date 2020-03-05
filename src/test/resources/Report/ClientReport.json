@@ -1,0 +1,469 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 10,
+        "name": "Verifying if the user is able to login to the addactin application with valid credentials",
+        "description": "",
+        "id": "verifying-the-addactin-page;verifying-if-the-user-is-able-to-login-to-the-addactin-application-with-valid-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 13617336400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User launched the URL",
+            "match": {
+              "location": "AddactinLoginpage.user_launched_the_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1157627800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User entered the valid login credentials \"Josephin\" and \"Jesus@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Josephin\"",
+                  "offset": 41
+                },
+                {
+                  "val": "\"Jesus@123\"",
+                  "offset": 56
+                }
+              ],
+              "location": "AddactinLoginpage.user_entered_the_valid_login_credentials_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1401648501,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User click on login button",
+            "match": {
+              "location": "AddactinLoginpage.user_click_on_login_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 26,
+        "name": "Verifying if the user is able to search the hotel",
+        "description": "",
+        "id": "verifying-the-addactin-page;verifying-if-the-user-is-able-to-search-the-hotel;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 107799,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User navigate to the search hotel URL",
+            "match": {
+              "location": "AddactinLoginpage.user_navigate_to_the_search_hotel_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 522617200,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User search the Location\"London\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"London\"",
+                  "offset": 24
+                }
+              ],
+              "location": "AddactinLoginpage.user_search_the_Location(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 677807699,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User search the hotel\"Hotel Cornice\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Hotel Cornice\"",
+                  "offset": 21
+                }
+              ],
+              "location": "AddactinLoginpage.user_search_the_hotel(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 658627500,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User search the room type\"Deluxe\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Deluxe\"",
+                  "offset": 25
+                }
+              ],
+              "location": "AddactinLoginpage.user_search_the_room_type(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 611477399,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User search the number of rooms\"6 - Six\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"6 - Six\"",
+                  "offset": 31
+                }
+              ],
+              "location": "AddactinLoginpage.user_search_the_number_of_rooms(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 553880299,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User select the check in date\"10/01/2020\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"10/01/2020\"",
+                  "offset": 29
+                }
+              ],
+              "location": "AddactinLoginpage.user_select_the_check_in_date(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 446014300,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User select the check out date\"11/01/2020\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"11/01/2020\"",
+                  "offset": 30
+                }
+              ],
+              "location": "AddactinLoginpage.user_select_the_check_out_date(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 577625400,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User select the adults per room\"4 - Four\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"4 - Four\"",
+                  "offset": 31
+                }
+              ],
+              "location": "AddactinLoginpage.user_select_the_adults_per_room(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 496976701,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User select the children per room\"4 - Four\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"4 - Four\"",
+                  "offset": 33
+                }
+              ],
+              "location": "AddactinLoginpage.user_select_the_children_per_room(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1293710601,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User click on search button",
+            "match": {
+              "location": "AddactinLoginpage.user_click_on_search_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 28,
+        "name": "Verifying if the user is able to select the hotel",
+        "description": "",
+        "id": "verifying-the-addactin-page;verifying-if-the-user-is-able-to-select-the-hotel",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 134199,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User should launch the select hotel URL",
+            "match": {
+              "location": "AddactinLoginpage.user_should_launch_the_select_hotel_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 213764500,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "User should select the radio button option from the options provided",
+            "match": {
+              "location": "AddactinLoginpage.user_should_select_the_radio_button_option_from_the_options_provided()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1039901900,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "Click on continue button",
+            "match": {
+              "location": "AddactinLoginpage.click_on_continue_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 47,
+        "name": "Verifying if the system is able to generate the order ID",
+        "description": "",
+        "id": "verifying-the-addactin-page;verifying-if-the-system-is-able-to-generate-the-order-id;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 121200,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "User should launch the book a hotel URL",
+            "match": {
+              "location": "AddactinLoginpage.user_should_launch_the_book_a_hotel_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 372631000,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "User search the fname\"Josephin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Josephin\"",
+                  "offset": 21
+                }
+              ],
+              "location": "AddactinLoginpage.user_search_the_fname(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 335122800,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "User search the lname\"Christo\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Christo\"",
+                  "offset": 21
+                }
+              ],
+              "location": "AddactinLoginpage.user_search_the_lname(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 322878100,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "User search the billingaddress\"Chennai\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Chennai\"",
+                  "offset": 30
+                }
+              ],
+              "location": "AddactinLoginpage.user_search_the_billingaddress(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 381970999,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "User search the number of credit card number\"8734567895678676\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"8734567895678676\"",
+                  "offset": 44
+                }
+              ],
+              "location": "AddactinLoginpage.user_search_the_number_of_credit_card_number(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 421318799,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "User select the check in credit card type\"VISA\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"VISA\"",
+                  "offset": 41
+                }
+              ],
+              "location": "AddactinLoginpage.user_select_the_check_in_credit_card_type(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 980665299,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "User select the check out expdate\"August\" and \"2022\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"August\"",
+                  "offset": 33
+                },
+                {
+                  "val": "\"2022\"",
+                  "offset": 46
+                }
+              ],
+              "location": "AddactinLoginpage.user_select_the_check_out_expdate_and(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 341085700,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "User select the adults per CCV\"234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"234\"",
+                  "offset": 30
+                }
+              ],
+              "location": "AddactinLoginpage.user_select_the_adults_per_CCV(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 181875900,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "User click on Book Now button",
+            "match": {
+              "location": "AddactinLoginpage.user_click_on_Book_Now_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6099873400,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "User need to get the order ID",
+            "match": {
+              "location": "AddactinLoginpage.user_need_to_get_the_order_ID()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Verifying the addactin page",
+    "description": "",
+    "id": "verifying-the-addactin-page",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Feature/AddactinLoginFeature.feature",
+    "tags": []
+  }
+]

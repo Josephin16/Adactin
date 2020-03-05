@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="0.029736">
+<testcase classname="Verifying the addactin page" name="Verifying if the user is able to login to the addactin application with valid credentials" time="0.021583">
+<system-out><![CDATA[Given User launched the URL.................................................skipped
+When User entered the valid login credentials...............................skipped
+Then User click on login button.............................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Verifying the addactin page" name="Verifying if the user is able to search the hotel" time="0.002963">
+<system-out><![CDATA[Given User navigate to the search hotel URL.................................skipped
+When User search the Location"London".......................................skipped
+And User search the hotel"Hotel Cornice"....................................skipped
+And User search the room type"Deluxe".......................................skipped
+And User search the number of rooms"6 - Six"................................skipped
+And User select the check in date"10/01/2020"...............................skipped
+And User select the check out date"11/01/2020"..............................skipped
+And User select the adults per room"4 - Four"...............................skipped
+And User select the children per room"4 - Four".............................skipped
+Then User click on search button............................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Verifying the addactin page" name="Verifying if the user is able to select the hotel" time="0.001525">
+<system-out><![CDATA[Given User should launch the select hotel URL...............................skipped
+When User should select the radio button option from the options provided...skipped
+Then Click on continue button...............................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Verifying the addactin page" name="Verifying if the system is able to generate the order ID" time="0.003665">
+<system-out><![CDATA[Given User should launch the book a hotel URL...............................skipped
+When User search the fname"Josephin"........................................skipped
+And User search the lname"Christo"..........................................skipped
+And User search the billingaddress"Chennai".................................skipped
+And User search the number of credit card number"8734567895678676"..........skipped
+And User select the check in credit card type"VISA".........................skipped
+And User select the check out expdate"August" and "2022"....................skipped
+And User select the adults per CCV"234".....................................skipped
+And User click on Book Now button...........................................skipped
+Then User need to get the order ID..........................................skipped
+]]></system-out>
+</testcase>
+</testsuite>
