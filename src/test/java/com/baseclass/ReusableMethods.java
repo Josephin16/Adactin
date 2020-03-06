@@ -79,6 +79,7 @@ public class ReusableMethods {
 		Assert.assertEquals("Incorrect URL", url, drive.getCurrentUrl());
 	}
 
+	
 	public void assertall(List<WebElement> e, String s) {
 		Assert.assertEquals("failure", s, e.get(0).getAttribute("value"));
 	}
